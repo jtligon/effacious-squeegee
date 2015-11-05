@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *tryButton;
+@property (strong, nonatomic) IBOutlet UITextField *wordField;
+
+-(IBAction)checkCurrentWord:(id)sender;
 
 @end
 
